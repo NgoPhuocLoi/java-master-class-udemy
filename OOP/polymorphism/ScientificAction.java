@@ -12,4 +12,8 @@ public class ScientificAction extends Movie {
                 .println(String.format(".. %s%n".repeat(3), "Bad Aliens do bad stuff", "Space guys chase aliens",
                         "Planet blows up"));
     }
+
+    public void watchScieneFiction() {
+        System.out.println("Watching a ScieneFiction...!");
+    }
 }
